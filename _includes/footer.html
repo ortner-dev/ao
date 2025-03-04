@@ -1,0 +1,17 @@
+<div class="page__footer-follow" >
+
+  {% if site.author.links %}
+  <div style="font-weight: normal !important; padding: 0 !important;">
+    {% for link in site.author.links %}
+    <a href="{{ link.url }}" rel="noopener noreferrer"
+       {% if link.url contains "http" %} target="_blank" {% endif %}
+      ><i class="{{ link.icon }}"></i> {{ link.label }}&nbsp;&nbsp;
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div style="margin-top: 5px !important;" class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a style="font-weight: normal !important" href="/">Alex Ortner</a>&nbsp;&nbsp;&nbsp;{{ site.title }}&nbsp;{{ site.subtitle }}</div>
+
+
+</div>

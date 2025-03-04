@@ -1,0 +1,67 @@
+<svg width="800" height="450" viewBox="0.0 0.0 870.0 430.0">
+  <style>
+    .title { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 26px; fill: #333; }
+    .grid { stroke: #ddd; stroke-width: 2; fill: none; }
+    .vgrid { stroke: #eee; stroke-dasharray: 5,5; fill: none; }
+    .y-label { text-anchor: end; font-family: Helvetica, Arial, sans-serif; font-size: 16px; fill: #555; }
+    .x-label { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 16px; fill: #555; }
+    .consultant { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 14px; fill: #333; }
+  </style>
+
+  <defs>
+    <linearGradient id="blueFade" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#CDE8FF; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CDE8FF; stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="orangeFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE0B3; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B3; stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="greenFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D1FFD6; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D1FFD6; stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="450" fill="#f9f9f9" />
+
+  <path class="grid" d="M250 80 H800 M250 152 H800 M250 224 H800 M250 296 H800 M250 368 H800" />
+
+  <g class="y-label" font-size="14">
+    <text x="230" y="116">
+      <tspan>Programmierung &amp; QS</tspan>
+    </text>
+    <text x="230" y="188">
+      <tspan>Schulungen &amp; Coaching</tspan>
+    </text>
+    <text x="230" y="260">
+      <tspan>Agile Methoden und</tspan>
+      <tspan x="230" dy="20">Prozessoptimierung</tspan>
+    </text>
+    <text x="230" y="332">
+      <tspan>Architektur- und</tspan>
+      <tspan x="230" dy="20">Technologieberatung</tspan>
+    </text>
+    <text x="230" y="404">
+      <tspan>Digitale Geschäftsstrategie</tspan>
+    </text>
+  </g>
+
+  <path class="vgrid" d="M300 80 V368 M400 80 V368 M500 80 V368 M600 80 V368 M700 80 V368" />
+
+  <g>
+    <rect x="300" y="120" width="100" height="120" rx="5" ry="5" fill="url(#blueFade)" stroke="#6C8EBF" stroke-width="2" />
+    <text x="350" y="188" class="consultant">Berater A</text>
+  </g>
+  <g>
+    <rect x="450" y="250" width="100" height="140" rx="5" ry="5" fill="url(#orangeFade)" stroke="#FFB74D" stroke-width="2" />
+    <text x="500" y="315" class="consultant">Berater B</text>
+  </g>
+  <g>
+    <rect x="620" y="85" width="110" height="325" rx="5" ry="5" fill="url(#greenFade)" stroke="#8BC34A" stroke-width="2" />
+    <text x="675" y="188" class="consultant">Mein Angebot</text>
+  </g>
+
+  <g class="x-label">
+  </g>
+</svg>
