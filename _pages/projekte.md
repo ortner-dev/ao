@@ -61,7 +61,6 @@ classes: wide
         <li>Ein umfangreiches UI-Framework für komplexe Web-Applikationen konzipieren und umsetzen</li>
         <li>Backend-Java-Entwickler in die Lage versetzen, ohne Expertise umfangreiche UIs zu bauen</li>
         <li>die ersten 40 Ansichten ("Masken") begleiten und Sonderfeatures bereitstellen</li>
-        <li>nicht-fachliche Features konzipieren und umsetzen (z.B. globale Suche, Blueprints für wiederkehrende Eingaben, Task-Verwaltung, etc..)</li>
     </ul>
 
     <h4><i class="fas fa-trophy"></i> Erfolge</h4>
