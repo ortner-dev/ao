@@ -1,11 +1,8 @@
 ---
-permalink: /faq/
-title: "FAQ"
+permalink: /social/
 breadcrumbs: false
-toc: false
-toc_label: Übersicht
-toc_sticky: true
-toc_icon: none
+classes: wide
+
 ---
 
 <style>
@@ -49,9 +46,9 @@ toc_icon: none
 </style>
 
 <div class="placeholder-container">
-    <h2>🚧 Im Aufbau 🚧</h2>
-    <p>Dieser Bereich befindet sich derzeit in Entwicklung.</p>
-    <p>Alle Inhalte werden im Laufe der nächsten Wochen bereitgestellt.</p>
-    <p>Benötigen Sie bestimmte Informationen sofort?</p>
+    <h2>🚧 Social Media Links 🚧</h2>
+    <p>Die Präsenz auf XING und LinkedIn wird demänächst aufgebaut .</p>
+    <p>In der Zwischenzeit nutzen Sie bitte das Formular auf dieser Website</p>
     <a href="/contact/">Kontaktieren Sie mich</a>
 </div>
+

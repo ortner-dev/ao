@@ -85,7 +85,7 @@ breadcrumbs: false
         <button type="submit">Absenden</button>
     </form>
 <br>
-<p>(&#8505;) Tipp - die häufigsten Fragen zur Zusammenarbeit sind in den <a href="/faq/">FAQs</a> zu finden.</p>
+<p style="display:none;">(&#8505;) Tipp - die häufigsten Fragen zur Zusammenarbeit sind in den <a href="/faq/">FAQs</a> zu finden.</p>
 </body>
 
 
