@@ -170,8 +170,7 @@ classes: wide
     <ul>
         <li>Konzept, Umsetzung und Live-Launch der Website &#8599;&nbsp;<a href="https://www.primus-linie.de/" target="_blank" rel="noopener noreferrer">primus-linie.de</a></li>
         <li>Live-Chat mit native Javascript für eine Partnerbörse</li>
-        <li>Konzept und Prototyping Portal für Hausaufgabenhilfe unter www.wissenskiste.de  (mittlerweile eingestellt)</li>
-        <li>eCommerce Anbindung an ein ERP-System - open source code (mittlerweile eingestellt)</li>
+        <li>Konzept und Entwicklung www.wissenskiste.de (Hausaufgabenhilfe, nicht mehr online)</li>
         <li>DOS-UI für ein Archivierungsscript in C++</li>
         <li>Fachartikel-Reihe für die Zeitschrift &#8599;&nbsp;<a href="https://de.wikipedia.org/wiki/Toolbox" target="_blank" rel="noopener noreferrer">Toolbox</a> über die Entwicklung von Desktop-Apps</li>
         <li>Online-Spiele mit native Javascript für einen &#8599;&nbsp;<a href="https://de.wikipedia.org/wiki/Cebit" target="_blank" rel="noopener noreferrer">CEBIT Messeauftritt</a> der vectorsoft GmbH</li>

@@ -5,7 +5,7 @@ classes: wide
 breadcrumbs: false
 ---
 
-<p>Bitte beschreiben Sie kurz Ihr Anliegen - ich melde mich in Kürze zurück:</p>
+<p>Bitte beschreiben Sie kurz Ihr Anliegen - ich melde mich zurück:</p>
 <head>
     <style>
         .contact-form {
@@ -64,13 +64,15 @@ breadcrumbs: false
         <label for="email">Ihre Kontaktdaten - Email, Tel, etc..</label>
         <textarea id="contact" name="contact" required></textarea>
 
-        <label for="options">Thema</label>
-        <select id="options" name="options" required style="width: 100%;">
-            <option value="option1" selected>Allgemeine Anfrage</option>
-            <option value="option2">Beratung & Coaching</option>
-            <option value="option2">Softwareentwicklung</option>
-            <option value="option3">Kooperation & Geschäftsideen</option>
+        <label for="options">Bereich</label>
+        <select id="options" name="options" required style="width: 100%;" onchange="toggleCustomInput(this)">
+            <option value="consulting">Beratung & Softwareentwicklung</option>
+            <option value="cooperation">Kooperation & Geschäftsideen</option>
+            <option value="general" selected>Allgemeine Anfrage</option>
         </select>
+
+        <!-- Custom input field for free text, hidden by default -->
+        <input type="text" id="customOption" name="customOption" style="display: none; width: 100%;" placeholder="Bitte das Thema eingeben">
 
         <label for="message">Nachricht</label>
         <textarea id="message" name="message" required></textarea>
@@ -81,6 +83,41 @@ breadcrumbs: false
 <br>
 <p>(&#8505;) Tipp - die häufigsten Fragen zur Zusammenarbeit sind in den <a href="/faq/">FAQs</a> zu finden.</p>
 </body>
+
+
+<script>
+
+    // handle custom input field 
+    function toggleCustomInput(selectElement) {
+        const customInput = document.getElementById("customOption");
+        if (selectElement.value === "consulting") {
+            customInput.style.display = "block";
+            customInput.required = true;
+        } else {
+            customInput.style.display = "none";
+            customInput.required = false;
+            customInput.value = ""; // Clear input if hidden
+        }
+    }
+    // Function to get URL parameter
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    // Prefill message textarea if 'prefill' parameter is present in URL
+    document.addEventListener("DOMContentLoaded", function () {
+        const prefillText = getQueryParam("prefill");
+        if (prefillText) {
+            const selectElement = document.getElementById("options");
+            selectElement.value = "consulting"; 
+            toggleCustomInput(selectElement);
+            const customInput = document.getElementById("customOption");
+            customInput.value = decodeURIComponent(prefillText); // Fill in the text
+        }
+    });
+</script>
+
 
 <!-- highlight main nav item --> 
 <script>

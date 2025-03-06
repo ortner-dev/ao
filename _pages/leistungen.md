@@ -8,23 +8,13 @@ sections:
     services:
       - title: "Modernisierung Legacy-Software"
         summary:
-        link: /leistungen/placeholder/
         details:
           - Moderne Web-UI mit Vaadin (Java) für große Business Software
           - Technische Schulden erkennen und abbauen
           - UX analysieren und verbessern
 
-      - title: "Architektur & Technologieberatung"
-        summary: Beratung für skalierbare und wartbare Software-Architekturen
-        link: /leistungen/placeholder/
-        details:
-          - Architektur-Review: Skalierbarkeit, Sicherheit, Wartbarkeit
-          - Technologieauswahl: Java vs. .NET, Cloud-Services, Microservices vs. Monolith
-          - Strategische Beratung zu Software-Architekturen
-
       - title: "Code-Qualität & Optimierung"
         summary: Code-Review & technische Optimierung
-        link: /leistungen/placeholder/
         details:
           - Struktur, Architektur, technische Schulden
           - Performance-Analyse & Bottleneck-Optimierung (Datenbanken, API Calls, Ladezeiten)
@@ -32,7 +22,6 @@ sections:
 
       - title: "Individuelle Softwareentwicklung"
         summary: Entwicklung maßgeschneiderter Software & Features (API, Backend, etc.)
-        link: /leistungen/placeholder/
         details:
           - Umsetzung komplexer Business-Logik
           - Prototypen & Machbarkeitsstudien (MVP/PoC)
@@ -41,9 +30,15 @@ sections:
 
   - section: "Technologie- & Strategieberatung"
     services:
+      - title: "Architektur & Technologieberatung"
+        summary: Beratung für skalierbare und wartbare Software-Architekturen
+        details:
+          - Architektur-Review: Skalierbarkeit, Sicherheit, Wartbarkeit
+          - Technologieauswahl: Java vs. .NET, Cloud-Services, Microservices vs. Monolith
+          - Strategische Beratung zu Software-Architekturen
+
       - title: "Technologie- & Unternehmensstrategie"
         summary:
-        link: /leistungen/placeholder/
         details:
           - Beratung zu Digitalisierungsprozessen und strategischen Entscheidungen
           - Auswahl passender Technologien & Softwarelösungen
@@ -51,23 +46,21 @@ sections:
 
       - title: "Bewertung & Beratung für IT-Projekte"
         summary: Analyse und Bewertung von IT-Projekten für bessere Entscheidungen
-        link: /leistungen/placeholder/
         details:
           - Analyse von Projektchancen & Risiken
           - Qualitätseinschätzung von Software-Angeboten
 
-      - title: "Fractional CTO Services"
+      - title: "Fractional CTO/CIO Services"
         summary: Interims-CTO für Unternehmen ohne feste CTO-Rolle
-        link: /leistungen/placeholder/
         details:
+          - Interims-CTO/CIO für Unternehmen 
           - Beratung bei Software- & IT-Entscheidungen
           - Unterstützung bei Projektvergabe & Steuerung
 
-  - section: "Team & Prozessoptimierung"
+  - section: "Prozessoptimierung & übergreifende Koordination"
     services:
       - title: "Agile Entwicklung & Prozessoptimierung"
         summary: Scrum/Kanban-Optimierung für effiziente Entwicklungsprozesse
-        link: /leistungen/placeholder/
         details:
           - Einführung & Verbesserung von Scrum/Kanban
           - Optimierung von Entwicklungsprozessen
@@ -75,35 +68,33 @@ sections:
 
       - title: "Technisches Recruiting & IT-Fachkräfteauswahl"
         summary: Unterstützung bei der Auswahl & Bewertung neuer Teammitglieder
-        link: /leistungen/placeholder/
         details:
           - Durchführung von technischen Interviews & Evaluierung von Entwicklern
           - Beratung für IT-Personalentscheidungen & Teamzusammenstellung
+          - Recruiting & Assessment neuer Entwickler
 
-  - section: "Coaching & Weiterbildung"
-    services:
       - title: "Schulungen & Weiterbildungen für Entwickler"
         summary: Hands-on Workshops zu DevOps, Security & Architektur
-        link: /leistungen/placeholder/
         details:
           - Einführung in neue Technologien (z. B. Kubernetes, Cloud, Clean Code)
           - Coaching für Softwareentwicklungsteams
-
-      - title: "Code-Reviews & Best Practices"
-        summary: Unterstützung bei der Verbesserung der Codequalität
-        link: /leistungen/placeholder/
-        details:
-          - Best Practices für sauberen und wartbaren Code
+          - Code-Reviews und Vermittlung von Best Practices
 
   - section: "Sonstiges"
     services:
-      - title: "Projekt-Rescue & Krisenmanagement"
-        summary: 
-        link: /leistungen/placeholder/
+      - title: "Krisenmanagement"
+        summary: Rettung & Stabilisierung gescheiterter Softwareprojekte
         details:
-          - Rettung & Stabilisierung gescheiterter Softwareprojekte
-          - Analyse & Bewertung der Leistungsfähigkeit von Entwickler-Teams
-          - Recruiting & Assessment neuer Entwickler
+          - Identifikation kritischer Blockaden und Konflikte
+          - Etablierung von Maßnahmen zur Schadensbegrenzung
+          - Moderation von Krisengesprächen mit Stakeholdern
+          - Kosten-Nutzen-Analyse alternativer Lösungsansätze
+          - Technische & organisatorische Maßnahmen zur Projektstabilisierung
+      - title: "Überraschen Sie mich"
+        summary: Haben Sie eine eigen Idee?
+        details:
+          - ich liebe neue Themen und komplexe Probleme
+          - fragen Sie ihre Idee einfach an - vielleicht %%
 
 
 ---
@@ -242,7 +233,8 @@ sections:
                 {% endfor %}
               </ul>
             {% endif %}
-            <a href="{{ service.link }}">Mehr Infos →</a>
+            <a href="/contact?prefill={{ service.title |  uri_escape | replace: '&', '%26' }}">Anfrage →</a>
+
           </div>
         </div>
       {% endfor %}

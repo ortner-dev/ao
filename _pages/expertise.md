@@ -211,8 +211,8 @@ blocks:
       items:
         - Deutsch (Muttersprache)
         - Englisch (muttersprachliches Niveau)
-        - Russisch (muttersprachliches Niveau)
-        - Französisch (Prüfungsfach Abitur = Grundkenntnisse)
+        - Russisch (verhandlungssicher)
+        - Französisch (Grundkenntnisse / Prüfungsfach Abitur)
 
 
 ---
