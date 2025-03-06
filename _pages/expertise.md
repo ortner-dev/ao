@@ -62,8 +62,7 @@ blocks:
   subtitle: Begrenzte Erfahrung oder länger zurückliegend, bei Bedarf vertiefbar
   entries:
 
-    - C
-    - C++
+    - C/C++
     - JavaFX
     - Java Swing
     - JSF
@@ -386,3 +385,30 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 }); 
 </script>
+
+<!-- contact -->
+<div class="cta-section">
+  <a href="/contact/" class="cta-button">jetzt Kontakt aufnehmen</a>
+</div>
+
+<style>
+  .cta-section {
+    text-align: center;
+    padding: 30px;
+  }
+  .cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #54ab4e;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #0073e6;
+  }
+</style>

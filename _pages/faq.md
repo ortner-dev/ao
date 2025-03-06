@@ -50,7 +50,7 @@ toc_icon: none
 
 <div class="placeholder-container">
     <h2>🚧 Im Aufbau 🚧</h2>
-    <p>Diese Website befindet sich derzeit in Entwicklung.</p>
+    <p>Dieser Bereich befindet sich derzeit in Entwicklung.</p>
     <p>Alle Inhalte werden im Laufe der nächsten Wochen bereitgestellt.</p>
     <p>Benötigen Sie bestimmte Informationen sofort?</p>
     <a href="/contact/">Kontaktieren Sie mich</a>

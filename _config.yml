@@ -29,7 +29,7 @@ enable: # %% test
   lightbox: true
 
 # Build settings
-url: http://alexortner.de
+url: https://alexortner.de
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting

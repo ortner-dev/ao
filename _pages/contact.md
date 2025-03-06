@@ -57,28 +57,32 @@ breadcrumbs: false
 </head>
 <body>
 
-    <form class="contact-form">
+
+<form class="contact-form" action="https://api.staticforms.xyz/submit" method="post">
+
+        <input type="hidden" name="accessKey" value="a74451fe-0d0d-4f15-90ab-51c01069b8e9">
+        <input type="text" name="honeypot" style="display: none;"> <!-- spam protection -->
+
         <label for="name">Ihr Name / Unternehmen</label>
         <input type="text" id="name" name="name" required>
 
         <label for="email">Ihre Kontaktdaten - Email, Tel, etc..</label>
-        <textarea id="contact" name="contact" required></textarea>
+        <textarea id="email" name="email" required></textarea>
 
         <label for="options">Bereich</label>
-        <select id="options" name="options" required style="width: 100%;" onchange="toggleCustomInput(this)">
+        <select id="options" name="phone" required style="width: 100%;" onchange="toggleCustomInput(this)">
             <option value="consulting">Beratung & Softwareentwicklung</option>
             <option value="cooperation">Kooperation & Geschäftsideen</option>
             <option value="general" selected>Allgemeine Anfrage</option>
         </select>
 
-        <!-- Custom input field for free text, hidden by default -->
-        <input type="text" id="customOption" name="customOption" style="display: none; width: 100%;" placeholder="Bitte das Thema eingeben">
+        <!-- Custom input field, hidden by default -->
+        <input type="text" id="subject" name="subject" style="display: none; width: 100%;" placeholder="Bitte das Thema eingeben">
 
         <label for="message">Nachricht</label>
         <textarea id="message" name="message" required></textarea>
-
-        <!-- <button type="submit">Absenden</button> -->
-        <p> %% Absenden-Button (in Kürze) %% </p>
+        <input type="hidden" name="redirectTo" value="https://alexortner.de/contact_success">
+        <button type="submit">Absenden</button>
     </form>
 <br>
 <p>(&#8505;) Tipp - die häufigsten Fragen zur Zusammenarbeit sind in den <a href="/faq/">FAQs</a> zu finden.</p>
@@ -89,13 +93,11 @@ breadcrumbs: false
 
     // handle custom input field 
     function toggleCustomInput(selectElement) {
-        const customInput = document.getElementById("customOption");
+        const customInput = document.getElementById("subject");
         if (selectElement.value === "consulting") {
             customInput.style.display = "block";
-            customInput.required = true;
         } else {
             customInput.style.display = "none";
-            customInput.required = false;
             customInput.value = ""; // Clear input if hidden
         }
     }
@@ -112,7 +114,7 @@ breadcrumbs: false
             const selectElement = document.getElementById("options");
             selectElement.value = "consulting"; 
             toggleCustomInput(selectElement);
-            const customInput = document.getElementById("customOption");
+            const customInput = document.getElementById("subject");
             customInput.value = decodeURIComponent(prefillText); // Fill in the text
         }
     });

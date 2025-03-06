@@ -4,81 +4,78 @@ breadcrumbs: false
 classes: wide
 sections:
 
-  - section: "Software-Architektur & Entwicklung"
+  - section: "Entwicklung komplexer Software "
     services:
       - title: "Modernisierung Legacy-Software"
         summary:
         details:
-          - Moderne Web-UI mit Vaadin (Java) für große Business Software
+          - Moderne Web-UI mit Vaadin (Java) für umfangreiche Business Software
           - Technische Schulden erkennen und abbauen
           - UX analysieren und verbessern
 
-      - title: "Code-Qualität & Optimierung"
-        summary: Code-Review & technische Optimierung
-        details:
-          - Struktur, Architektur, technische Schulden
-          - Performance-Analyse & Bottleneck-Optimierung (Datenbanken, API Calls, Ladezeiten)
-          - Refactoring & Modernisierung von Legacy-Code
-
       - title: "Individuelle Softwareentwicklung"
-        summary: Entwicklung maßgeschneiderter Software & Features (API, Backend, etc.)
-        details:
-          - Umsetzung komplexer Business-Logik
-          - Prototypen & Machbarkeitsstudien (MVP/PoC)
-          - Enterprise-Software-Modernisierung (Legacy zu Web UI)
-
-
-  - section: "Technologie- & Strategieberatung"
-    services:
-      - title: "Architektur & Technologieberatung"
-        summary: Beratung für skalierbare und wartbare Software-Architekturen
-        details:
-          - Architektur-Review: Skalierbarkeit, Sicherheit, Wartbarkeit
-          - Technologieauswahl: Java vs. .NET, Cloud-Services, Microservices vs. Monolith
-          - Strategische Beratung zu Software-Architekturen
-
-      - title: "Technologie- & Unternehmensstrategie"
         summary:
         details:
-          - Beratung zu Digitalisierungsprozessen und strategischen Entscheidungen
-          - Auswahl passender Technologien & Softwarelösungen
-          - Unterstützung bei strategischen Software-Entscheidungen
+          - individuelle Entwicklung nach Ihren Vorgaben (Fullstack)
+          - Umsetzung komplexer Business-Logik
+          - Prototypen & Machbarkeitsstudien (MVP/PoC)
 
-      - title: "Bewertung & Beratung für IT-Projekte"
-        summary: Analyse und Bewertung von IT-Projekten für bessere Entscheidungen
+      - title: "Team-Optimierung"
+        summary: Analyse und Leistungsverbesserung Ihrer Dev-Teams
         details:
-          - Analyse von Projektchancen & Risiken
-          - Qualitätseinschätzung von Software-Angeboten
+          - umfangreiche Bestandsaufnahme aller relevanten Abläufe 
+          - Metriken für Effizienz und Nachhaltigkeit der Projekte  
+          - situationsabhängige Verbesserungsvorschläge und Feedback-Schleifen
+          - individuelles Coaching
 
-      - title: "Fractional CTO/CIO Services"
-        summary: Interims-CTO für Unternehmen ohne feste CTO-Rolle
-        details:
-          - Interims-CTO/CIO für Unternehmen 
-          - Beratung bei Software- & IT-Entscheidungen
-          - Unterstützung bei Projektvergabe & Steuerung
-
-  - section: "Prozessoptimierung & übergreifende Koordination"
-    services:
-      - title: "Agile Entwicklung & Prozessoptimierung"
-        summary: Scrum/Kanban-Optimierung für effiziente Entwicklungsprozesse
+      - title: "Agile Prozesse"
+        summary: 
         details:
           - Einführung & Verbesserung von Scrum/Kanban
-          - Optimierung von Entwicklungsprozessen
           - Effiziente Nutzung von Entwickler-Ressourcen
+          - Skalierung agiler Methoden für wachsende Teams
+          - Optimierung der Zusammenarbeit zwischen Teams und Abteilungen
 
-      - title: "Technisches Recruiting & IT-Fachkräfteauswahl"
-        summary: Unterstützung bei der Auswahl & Bewertung neuer Teammitglieder
-        details:
-          - Durchführung von technischen Interviews & Evaluierung von Entwicklern
-          - Beratung für IT-Personalentscheidungen & Teamzusammenstellung
-          - Recruiting & Assessment neuer Entwickler
 
-      - title: "Schulungen & Weiterbildungen für Entwickler"
-        summary: Hands-on Workshops zu DevOps, Security & Architektur
+  - section: "Strategische Beratung & Digitalisierung"
+    services:
+      - title: "Architektur- & Technologieberatung"
+        summary: 
         details:
-          - Einführung in neue Technologien (z. B. Kubernetes, Cloud, Clean Code)
-          - Coaching für Softwareentwicklungsteams
-          - Code-Reviews und Vermittlung von Best Practices
+          - Beratung zu Digitalisierungsprozessen und strategischen Entscheidungen 
+          - Auswahl passender Technologien & Softwarelösungen
+          - Fokus auf Nachhaltigkeit wie Skalierbarkeit, Sicherheit, Wartbarkeit, Kosten
+
+      - title: "Beratung IT-Projekte"
+        summary: 
+        details:
+          - Unterstützung bei Ausschreibungen
+          - Analyse von Projektchancen & Risiken
+          - umfassende Einschätzung von Software- & Projektangeboten
+
+      - title: "Fractional CTO/CIO Services"
+        summary: 
+        details:
+          - Interims-CTO/CIO für Unternehmen ohne feste Position  
+          - Beratung bei Software- & IT-Entscheidungen
+          - Beratung bei Projektvergabe & Steuerung
+
+  - section: "Prozesse  & übergreifende Koordination"
+    services:
+      - title: "Digitale Prozesskoordination & Schnittstellenmanagement"
+        summary: 
+        details:
+          - Optimierung der Zusammenarbeit zwischen Management, Entwicklern & Fachbereichen
+          - Einführung klarer Prozesse für übergreifende digitale Projekte
+          - Schließen von Kommunikationslücken & Beseitigung ineffizienter Workflows
+
+      - title: "Technisches Recruiting & Talentbewertung"
+        summary: 
+        details:
+          -  Identifikation & Auswahl passender IT-Fachkräfte
+          -  Durchführung technischer Interviews & Eignungsbewertungen
+          -  Beratung zu Personalentscheidungen & Teamzusammensetzung
+          -  Unterstützung bei Recruiting-Strategien & Auswahlverfahren
 
   - section: "Sonstiges"
     services:
@@ -90,11 +87,12 @@ sections:
           - Moderation von Krisengesprächen mit Stakeholdern
           - Kosten-Nutzen-Analyse alternativer Lösungsansätze
           - Technische & organisatorische Maßnahmen zur Projektstabilisierung
+
       - title: "Überraschen Sie mich"
         summary: Haben Sie eine eigen Idee?
         details:
           - ich liebe neue Themen und komplexe Probleme
-          - fragen Sie ihre Idee einfach an - vielleicht %%
+          - Lassen Sie uns Ihre Idee besprechen – vielleicht entsteht etwas Großartiges!
 
 
 ---
