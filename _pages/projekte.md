@@ -104,6 +104,7 @@ classes: wide
         <li>umfangreiche Web-Anwendungen konzipieren und in Zusammenarbeit mit versch. Teams umsetzen: CallCenter, Identity, Touchpoint, Warehouse, Subscription, AdCampaing</li>
         <li>zentrale unternehmensweite Komponenten für Web-Anwendungen bereitstellen</li>
         <li>Anschluss und Erweiterung der zugrundeliegenden Legacy-Verlagssysteme sowie ihre kontinuierliche Weiterpflege</li>
+        <li>Vaadin Migration von Vaadin 8 auf Vaadin 23/24</li>
     </ul>
 
     <h4><i class="fas fa-trophy"></i> Erfolge</h4>
