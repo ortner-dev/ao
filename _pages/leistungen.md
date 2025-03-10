@@ -92,7 +92,7 @@ sections:
         summary: Haben Sie eine eigen Idee?
         details:
           - ich liebe neue Themen und komplexe Probleme
-          - Lassen Sie uns Ihre Idee besprechen – vielleicht entsteht etwas Großartiges!
+          - lassen Sie uns Ihre Idee besprechen – vielleicht entsteht etwas Großartiges!
 
 
 ---
