@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+/.idea/*.*
+/.idea/alexortner.iml
+/.idea/git_toolbox_blame.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/git_toolbox_prj.xml

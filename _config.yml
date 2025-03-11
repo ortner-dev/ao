@@ -1,0 +1,121 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "de"  # German language, but doesn't work yet
+title: 360° Software Consulting
+subtitle: JAVA FULLSTACK & MEHR
+email: website@alexortner.de
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+twitter_username: username
+github_username: username
+minimal_mistakes_skin: default
+search: true
+enable: # %% test
+  lightbox: true
+
+# Build settings
+url: https://alexortner.de
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 20 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+breadcrumbs: true
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Alex Ortner"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "Alex Ortner"
+  home   : "/"
+  links:
+
+    #- label: "FAQ"
+    #  icon: "far fa-comments"
+    #  url: "/faq/"
+    #- label: "XING"
+    #  icon: "fab fa-xing"
+    #  url: "/social/"
+    #- label: "LinkedIn"
+    #  icon: "fab fa-linkedin"
+    #  url: "/social/"
+    - label: "freelancermap"
+      icon: "fab fa-id-card"
+      url: "https://www.freelancermap.de/profil/alex-ortner"
+    - label: "Kontakt"
+      icon: "far fa-envelope"
+      url: "/contact/"
+
+
+homepage:
+  layout: home
+
+footer:
+  links:
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
