@@ -52,8 +52,8 @@ classes: wide
 # Ausgewählte Projekte und Erfahrungen
 
 <div class="project-card">
-    <h3>UI Framework für große Web-Applikationen</h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2024, LEO Bytes GmbH
+    <h3>UI Framework für komplexe Web-Applikationen mit Java & Vaadin</h3>
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 01/2024-02/2025, LEO Bytes GmbH
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, CSS
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
@@ -73,14 +73,14 @@ classes: wide
 </div>
 
 <div class="project-card">
-    <h3>Reboot Migration Lohn- & Gehaltssoftware</h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2022–2023, HUP GmbH
+    <h3>Architektur und Kernkomponenten einer Lohn- & Gehaltssoftware </h3>
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 04/2022–12/2023, HUP GmbH
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Java, PostgreSQL, versch. APIs von deutschen Behörden
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
     <ul>
         <li>Analyse und Rettung eines festgefahrenen Migrationsprojekts einer Lohn- & Gehaltssoftware</li>
-        <li>Implementierung zentraler Backend-Logik für das L&G-Meldewesen (Finanzamt, DRV, Krankenkassen, BA etc.)</li>
+        <li>Restrukturierung und Implementierung der Architektur und Backend-Logik für das L&G-Meldewesen (Finanzamt, DRV, Krankenkassen, BA etc.) und Lohnabrechnung</li>
         <li>Bereitstellung eines JSON-Frameworks für einfache Pflege hunderter fachlicher Tests (z.B. ITSG-Testfälle) </li>
     </ul>
     <h4><i class="fas fa-trophy"></i> Erfolge</h4>
@@ -93,7 +93,7 @@ classes: wide
 </div>
 
 <div class="project-card">
-    <h3>Web Portal Solutions im Verlagsumfeld</h3>
+    <h3>Web Portal Solutions im Verlagsumfeld mit Java & Vaadin</h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2018–2022, Festanstellung HUP AG 
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Senior Developer und Technical Lead
     <br><i class="far fa-user"></i> Nebenrolle: Product Owner 
@@ -104,7 +104,7 @@ classes: wide
         <li>umfangreiche Web-Anwendungen konzipieren und in Zusammenarbeit mit versch. Teams umsetzen: CallCenter, Identity, Touchpoint, Warehouse, Subscription, AdCampaing</li>
         <li>zentrale unternehmensweite Komponenten für Web-Anwendungen bereitstellen</li>
         <li>Anschluss und Erweiterung der zugrundeliegenden Legacy-Verlagssysteme sowie ihre kontinuierliche Weiterpflege</li>
-        <li>Vaadin Migration von Vaadin 8 auf Vaadin 23/24</li>
+        <li>Vaadin Migration von Vaadin 8 auf Vaadin 14+</li>
     </ul>
 
     <h4><i class="fas fa-trophy"></i> Erfolge</h4>
@@ -118,7 +118,7 @@ classes: wide
 
 <div class="project-card">
     <h3>&#9889; Critical Mission ERP-System für Zeitungsverlage &#9889; </h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2006–2018, Festanstellung Compass GmbH / HUP AG
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2006–2021, Festanstellung Compass GmbH / HUP AG
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead-Developer und Leitung Entwicklung
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Conzept 16, PostgreSQL / MySQL, Microservices, PHP
 
@@ -143,7 +143,6 @@ classes: wide
 <div class="project-card">
     <h3>Testautomatisierung auf www.bahn.de</h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2005-2006, Diplomand bei Bahn AG
-    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Blabla Developer Master
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> PHP, HTML/CSS/JS, SQLite, REST, Java
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
