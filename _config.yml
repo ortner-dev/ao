@@ -17,10 +17,8 @@ locale: "de"  # German language, but doesn't work yet
 title: 360° Software Consulting
 subtitle: JAVA FULLSTACK & MEHR
 email: website@alexortner.de
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "Java Vaadin Software Developer, Software Consulting, Modernisierung von Legacy-Software, individuelle Softwareentwicklung, agile Prozesse und strategische IT-Beratung. Maßgeschneiderte Lösungen für Unternehmen.
+  Softwareentwicklung, IT-Beratung, Legacy-Modernisierung, Vaadin, Java, Agile Prozesse, CTO Services, Digitalisierung, Technisches Recruiting, Prozessoptimierung"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
