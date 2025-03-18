@@ -38,11 +38,11 @@ blocks:
       - Liquibase
       - Git
       - Maven
-      - Apache
       - CI/CD
       - XML
       - JSON
       - REST
+      - Apache Kafka
       - Microservices
       - WebSockets
       - Jackson

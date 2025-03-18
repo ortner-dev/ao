@@ -99,7 +99,7 @@ classes: wide
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2018–2022, HUP AG 
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
     <br><i class="far fa-user"></i> Nebenrolle: Product Owner 
-    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, REST, PostgreSQL, propietäre APIs aus dem Verlagsumfeld
+    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, REST, PostgreSQL, propietäre APIs aus dem Verlagsumfeld, Apache Kafka
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
     <ul>
