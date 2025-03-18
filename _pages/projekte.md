@@ -54,6 +54,7 @@ classes: wide
 <div class="project-card">
     <h3>UI Framework für komplexe Web-Applikationen mit Java & Vaadin</h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 01/2024-02/2025, LEO Bytes GmbH
+    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, CSS
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
@@ -75,6 +76,7 @@ classes: wide
 <div class="project-card">
     <h3>Architektur und Kernkomponenten einer Lohn- & Gehaltssoftware </h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 04/2022–12/2023, HUP GmbH
+    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Java, PostgreSQL, versch. APIs von deutschen Behörden
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
@@ -94,7 +96,7 @@ classes: wide
 
 <div class="project-card">
     <h3>Web Portal Solutions im Verlagsumfeld mit Java & Vaadin</h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2018–2022, Festanstellung HUP AG 
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2018–2022, HUP AG 
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
     <br><i class="far fa-user"></i> Nebenrolle: Product Owner 
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, REST, PostgreSQL, propietäre APIs aus dem Verlagsumfeld
@@ -118,8 +120,8 @@ classes: wide
 
 <div class="project-card">
     <h3>&#9889; Critical Mission ERP-System für Zeitungsverlage &#9889; </h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2006–2021, Festanstellung Compass GmbH / HUP AG
-    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead-Developer und Leitung Entwicklung
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2006–2021, Compass GmbH / HUP AG
+    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead-Developer und Teamleiter Entwicklung
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Conzept 16, PostgreSQL / MySQL, Microservices, PHP
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
@@ -142,7 +144,8 @@ classes: wide
 
 <div class="project-card">
     <h3>Testautomatisierung auf www.bahn.de</h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2005-2006, Diplomand bei Bahn AG
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2005-2006, Bahn AG
+    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Diplomand
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> PHP, HTML/CSS/JS, SQLite, REST, Java
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
@@ -180,8 +183,8 @@ classes: wide
 
 <div class="project-card">
     <h3>Custom-ERP für Hardwarehandel</h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2002-2003, Werkstudent bei RB Service Team GmbH 
-    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Junior Developer   
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2002-2003, RB Service Team GmbH 
+    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Werkstudent / Junior Developer    
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> MySQL, Win32 API / MFC, SOAP
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
