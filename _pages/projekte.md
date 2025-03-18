@@ -95,7 +95,7 @@ classes: wide
 <div class="project-card">
     <h3>Web Portal Solutions im Verlagsumfeld mit Java & Vaadin</h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2018–2022, Festanstellung HUP AG 
-    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Senior Developer und Technical Lead
+    <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
     <br><i class="far fa-user"></i> Nebenrolle: Product Owner 
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, REST, PostgreSQL, propietäre APIs aus dem Verlagsumfeld
 
