@@ -26,6 +26,12 @@ blocks:
       - Spring Boot
       - Spring Data
       - Spring Security
+      - Keycloak
+      - REST
+      - Apache Kafka
+      - Microservices
+      - OpenAPI
+      - WebSockets
       - HTML
       - CSS
       - JavaScript
@@ -41,10 +47,6 @@ blocks:
       - CI/CD
       - XML
       - JSON
-      - REST
-      - Apache Kafka
-      - Microservices
-      - WebSockets
       - Jackson
       - GSON
       - MVC

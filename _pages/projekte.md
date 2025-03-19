@@ -55,7 +55,7 @@ classes: wide
     <h3>UI Framework für komplexe Web-Applikationen mit Java & Vaadin</h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 01/2024-02/2025, LEO Bytes GmbH
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
-    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, CSS
+    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, HTML/CSS/JS
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
     <ul>
@@ -77,7 +77,7 @@ classes: wide
     <h3>Architektur und Kernkomponenten einer Lohn- & Gehaltssoftware </h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 04/2022–12/2023, HUP GmbH
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
-    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Java, PostgreSQL, versch. APIs von deutschen Behörden
+    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Java, PostgreSQL, versch. APIs von deutschen Behörden, OpenAPI, Keycloak
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
     <ul>
@@ -99,7 +99,7 @@ classes: wide
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2018–2022, HUP AG 
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
     <br><i class="far fa-user"></i> Nebenrolle: Product Owner 
-    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, REST, PostgreSQL, propietäre APIs aus dem Verlagsumfeld, Apache Kafka
+    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, REST, PostgreSQL, APIs aus dem Verlagsumfeld, Apache Kafka, OpenAPI
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
     <ul>
@@ -122,7 +122,7 @@ classes: wide
     <h3>&#9889; Critical Mission ERP-System für Zeitungsverlage &#9889; </h3>
     <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 2006–2021, Compass GmbH / HUP AG
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead-Developer und Teamleiter Entwicklung
-    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Conzept 16, PostgreSQL / MySQL, Microservices, PHP
+    <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> C++, Conzept 16, PostgreSQL / MySQL, Microservices, PHP, HTML/CSS/JS, etc..
 
     <h4><i class="fas fa-tasks"></i> Aufgaben</h4>
     <ul>
