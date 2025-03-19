@@ -212,7 +212,6 @@ blocks:
       items:
         - Deutsch (Muttersprache)
         - Englisch (verhandlungssicher)
-        - Russisch (gut)
         - Französisch (Grundkenntnisse)
 
 
