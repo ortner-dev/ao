@@ -113,6 +113,7 @@ blocks:
     - label: "Datenbanken, Performance & Infrastruktur"
       items:
         - tägliche Arbeit mit großen relationalen Datenbanken (600+ Tabellen, 1TB+ Daten)
+        - Datenmodellierung und Migration
         - Optimierung von Datenkonsistenz, Abfrageperformance und Ausfallsicherheit
         - Entwicklung maßgeschneiderter Dev-Tools zur Optimierung von Entwicklungsprozessen
         - Implementierung von Logging- und Monitoring-Lösungen für robuste und skalierbare Produktionssysteme
