@@ -53,7 +53,7 @@ classes: wide
 
 <div class="project-card">
     <h3>UI Framework für komplexe Web-Applikationen mit Java & Vaadin</h3>
-    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 01/2024-02/2025, LEO Bytes GmbH
+    <i class="far fa-calendar-alt"></i> <strong>Zeitraum:</strong> 01/2024-02/2025, HUP GmbH / LEO Bytes GmbH
     <br><i class="fas fa-user-tie"></i> <strong>Rolle:</strong> Lead Developer und Software Architekt
     <br><i class="fas fa-cogs"></i> <strong>Technologien:</strong> Vaadin, Java, Spring Boot, HTML/CSS/JS, etc..
 
@@ -66,7 +66,7 @@ classes: wide
 
     <h4><i class="fas fa-trophy"></i> Erfolge</h4>
     <ul>
-        <li>produktionsreifes UI-Framework (~50K Codezeilen)</li>
+        <li>produktionsreifes UI-Framework (~50K Codezeilen) für ein SaaS-Start-up</li>
         <li>5-fache Produktivität in Entwicklung der Use-Cases durch Standards für Konzeptionierung der User Stories und ihre Umsetzung </li>
         <li>Modularer Aufbau ermöglicht einfache Erweiterbarkeit, ideal für wachsende Anforderungen und Sonderfeatures an jeder Stelle</li>
     </ul>

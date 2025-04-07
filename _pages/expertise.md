@@ -21,12 +21,14 @@ blocks:
 - type: "thumbnails"
   title: "Technologien - Main Stack"
   entries:
-      - Java
+      - Java / JavaEE 
       - Vaadin
+      - Kotlin
       - Spring Boot
       - Spring Data
       - Spring Security
       - Keycloak
+      - OAuth2
       - REST
       - Apache Kafka
       - Microservices
@@ -36,15 +38,23 @@ blocks:
       - CSS
       - JavaScript
       - TypeScript
+      - PHP
       - SQL
       - PostgreSQL
       - MongoDB
       - MySQL
+      - Oracle DB
+      - MSSQL
       - Hibernate
       - Liquibase
       - Git
       - Maven
+      - Gradle
       - CI/CD
+      - Docker
+      - Jenkins
+      - Kubernetes
+      - Linux
       - XML
       - JSON
       - Jackson
@@ -65,28 +75,20 @@ blocks:
   entries:
 
     - C/C++
+    - Python
     - JavaFX
     - Java Swing
     - JSF
-    - JavaEE
+    - C# / .NET
     - Angular
     - React
     - Lit
     - Web Components
-    - C#
-    - .NET
     - GWT
-    - Kotlin
-    - Python
-    - PHP
     - Ruby
     - Elasticsearch
-    - Gradle
     - SonarQube
-    - Linux
-    - MacOS
     - SQLite
-    - SQL Server
 
 - type: "listings"
   group_title: "Branchen & Geschäftsfelder"
@@ -162,11 +164,8 @@ blocks:
     - Hot Keyboard
     - Notepad++
     - DBeaver
-    - Docker
     - Bitbucket
     - GitHub
-    - Jenkins
-    - Kubernetes
 
 
 
