@@ -5,5 +5,7 @@ main:
     url: /expertise/
   - title: "Projekte"
     url: /projekte/
+  - title: "Blog"
+    url: /posts/
   - title: "Kontakt"
     url: /contact/
