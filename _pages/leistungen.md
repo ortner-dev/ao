@@ -13,7 +13,7 @@ sections:
         details:
           - Entwicklung komplexer Business-Logik, APIs und Microservices in Java
           - Datenbankdesign, Transaktionsmanagement, Performance-Optimierung
-          - Fokus auf Wartbarkeit, Testbarkeit und Robustheit der Laufzeit
+          - Analyse Legacy-Code, Migration, Refactoring, Pflege und Erweiterung
 
       - title: "Vaadin Frontend & Modernisierung"
         summary:
@@ -308,12 +308,3 @@ sections:
   {% endfor %}
 </div>
 
-<!-- highlight main nav item --> 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    let link = document.querySelector('#site-nav a[href="/leistungen/"]');
-    if (link) {
-        link.style.fontWeight = "bold";
-    }
-}); 
-</script>

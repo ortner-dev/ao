@@ -1,5 +1,5 @@
 ---
-permalink: /projekte/
+permalink: /projekte_old/
 breadcrumbs: false
 classes: wide
 ---
@@ -201,6 +201,16 @@ classes: wide
 </div>
 
 
+<!-- highlight main nav item  
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let link = document.querySelector('#site-nav a[href="/projekte/"]');
+    if (link) {
+        link.style.fontWeight = "bold";
+    }
+}); 
+</script> -->
+
 <!-- contact -->
 <div class="cta-section">
   <a href="/contact/" class="cta-button">jetzt Kontakt aufnehmen</a>
@@ -227,3 +237,5 @@ classes: wide
     background-color: #0073e6;
   }
 </style>
+
+

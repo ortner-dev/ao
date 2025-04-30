@@ -121,12 +121,3 @@ breadcrumbs: false
 </script>
 
 
-<!-- highlight main nav item --> 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    let link = document.querySelector('#site-nav a[href="/contact/"]');
-    if (link) {
-        link.style.fontWeight = "bold";
-    }
-}); 
-</script>

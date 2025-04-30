@@ -1,0 +1,14 @@
+<!-- highlight active main nav item 2025-04-30 AOR -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.replace(/\/$/, "");
+    const navLinks = document.querySelectorAll('#site-nav a');
+    navLinks.forEach(link => {
+      const linkPath = link.getAttribute('href').replace(/\/$/, "");
+      if (linkPath && currentPath === linkPath) {
+        // link.classList.add("active-nav-item");
+        link.style.fontWeight = "bold";
+      }
+    });
+  });
+</script>
